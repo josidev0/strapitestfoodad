@@ -13,11 +13,14 @@ const RenderView = ({
   onClick,
   onPagingChange,
   restaurants,
-  rest : { restaurantsConnection : { aggregate : { count } } },
+  rest: {
+    restaurantsConnection: {
+      aggregate: { count },
+    },
+  },
   start,
-  range
+  range,
 }) => {
-
   const renderPagination = () => {
     return (
       <Paging
@@ -31,7 +34,7 @@ const RenderView = ({
 
   return (
     <div className="restaurants-wrapper">
-      <H1>Best restaurants in Paris</H1>
+      <H1>Mejores restaurantes en Ecuador</H1>
       <Grid>
         {restaurants.map(restaurant => (
           <li className="column" key={restaurant.id}>
@@ -65,7 +68,7 @@ RenderView.defaultProps = {
   range: 0,
   restaurants: [],
   rest: {},
-  start: 0
+  start: 0,
 };
 
 RenderView.propTypes = {
@@ -74,7 +77,7 @@ RenderView.propTypes = {
   range: PropTypes.number,
   restaurants: PropTypes.array,
   rest: PropTypes.object,
-  start: PropTypes.number
+  start: PropTypes.number,
 };
 
 export default RenderView;

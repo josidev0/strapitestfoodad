@@ -11,7 +11,7 @@ import { Collapse, Navbar, NavbarToggler, Nav, NavItem } from 'reactstrap';
 
 import StyledHeader from './StyledHeader';
 import Link from '../Link';
-import logo from '../../assets/img/logo.svg';
+import logo from '../../assets/img/logo2.svg';
 
 function Header({ links }) {
   const [isOpen, toggleIsOpen] = useState(false);

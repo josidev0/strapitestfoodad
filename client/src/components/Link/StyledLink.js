@@ -17,13 +17,14 @@ const StyledLink = styled(Link)`
   color: ${colors.mediumGrey};
   text-transform: uppercase;
   font-size: 12px;
-  letter-spacing 1.2px;
+  letter-spacing: 1.2px;
   p {
     position: relative;
     ${fonts.reg};
     overflow: hidden;
   }
-  &:hover, &.active {
+  &:hover,
+  &.active {
     text-decoration: none;
     color: ${colors.darkBlue};
     p {

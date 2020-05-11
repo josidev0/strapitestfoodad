@@ -14,16 +14,16 @@ import Img from '../Img';
 import arrow from '../../assets/img/icon_arrow_right.png';
 
 import StyledFooter from './StyledFooter';
-import logo from '../../assets/img/logo.svg';
+import logo from '../../assets/img/logo2.svg';
 
 function Footer({ links, onSubmit }) {
   const [email, setValue] = useState('');
-  
+
   return (
     <StyledFooter>
       <div className="container">
         <div className="navbar-brand">
-          <Link to='/'>
+          <Link to="/">
             <img src={logo} alt="logo" />
           </Link>
         </div>
@@ -72,11 +72,11 @@ function Footer({ links, onSubmit }) {
 
 Footer.defaultProps = {
   links: [],
-  onSubmit: e => e.preventDefault()
+  onSubmit: e => e.preventDefault(),
 };
 Footer.propTypes = {
   links: PropTypes.array,
-  onSubmit: PropTypes.func
+  onSubmit: PropTypes.func,
 };
 
 export default Footer;

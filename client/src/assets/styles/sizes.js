@@ -7,33 +7,33 @@ const sizes = {
   header: {
     height: {
       small: '60px',
-      large: '84px'
+      large: '84px',
     },
     logoWidth: {
-      small: '96px',
-      large: '170px'
+      small: '45px',
+      large: '100px',
     },
-    padding: '20px'
+    padding: '20px',
   },
   article: {
     img: {
-      height: '176px'
-    }
+      height: '176px',
+    },
   },
   slider: {
     height: {
       small: '172px',
-      large: '356px'
+      large: '356px',
     },
     controls: {
-      size: '68px'
+      size: '68px',
     },
     indicators: {
-      size: '74px'
-    }
+      size: '74px',
+    },
   },
   input: {
-    height: '44px'
+    height: '44px',
   },
   cover: {
     height: {
