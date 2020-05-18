@@ -1,8 +1,8 @@
-# FoodAdvisor Quick Start
+# strapitestfoodad Inicio Primera Vez 
 
-## 1. Clone FoodAdvisor
+## 1. Clonar strapitestfoodad o Descargar .zip
 
-Clone FoodAdvisor
+Clonar FoodAdvisor
 
 `Path: ./my-projects/`:
 
@@ -10,28 +10,48 @@ Clone FoodAdvisor
 git clone https://github.com/strapi/foodadvisor.git
 ```
 
-## 2. Start Strapi from the ./api folder
+## 2. Iniciar Strapi desde la carpeta ./api
 
 `Path: ./my-projects/api/`:
 
-Run the following from your command line:
+Con yarn, ejecutar la siguiente linea de comandos:
 
 ```
 cd api && yarn && yarn run seed && yarn develop
 ```
 
-Then, follow [Step 3. Create an admin user](https://strapi.io/documentation/3.0.0-beta.x/getting-started/quick-start-tutorial.html#_3-create-an-admin-user) to create an `Administrator`.
+Despúes, seguir el tutorial para crear un administrador(https://strapi.io/documentation/3.0.0-beta.x/getting-started/quick-start-tutorial.html#_3-create-an-admin-user).
 
-You will find more information and options in the [**api** README](./api).
 
-## 3. Start the front-end from the ./client folder
+## 3. Iniciar el front-end desde la carpeta ./client
 
 `Path: ./my-projects/client/`:
 
-Run the following from your command line:
+Ejecutar la siguiente linea de comandos:
 
 ```
 cd client && yarn install && yarn start
 ```
+....................................................................................................................................
+# strapitestfoodad Iniciar Strapi 
 
-You will find more information and options in the [**client** README](./client).
+## 1. Iniciar Strapi desde la carpeta ./api
+
+`Path: ./my-projects/api/`:
+
+Con yarn, ejecutar la siguiente linea de comando:
+
+```
+ yarn develop
+```
+Para iniciar Strapi, iniciar sesión como Administrador.
+
+## 2. Iniciar el front-end desde la carpeta ./client
+
+`Path: ./my-projects/client/`:
+
+Ejecutar la siguiente linea de comandos:
+
+```
+yarn start
+```
