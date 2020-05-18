@@ -35,7 +35,7 @@ function Footer({ links, onSubmit }) {
                   key={link.name}
                   to={link.to}
                   className={
-                    link.name === 'My account' || link.name === 'Favorites'
+                    link.name === 'Cuenta' || link.name === 'Favoritos'
                       ? 'main-link'
                       : ''
                   }
@@ -48,7 +48,7 @@ function Footer({ links, onSubmit }) {
         </Nav>
         <div className="newsletter">
           <form onSubmit={onSubmit}>
-            <p className="newsletter-lbl">Subscribe to the newsletter&nbsp;:</p>
+            <p className="newsletter-lbl">Subscribete al newsletter&nbsp;:</p>
             <div className="input-wrapper">
               <Input
                 placeholder="Your email"
