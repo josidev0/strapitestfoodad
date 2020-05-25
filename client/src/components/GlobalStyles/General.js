@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components';
-
 import mixins from '../../assets/styles/mixins';
 import sizes from '../../assets/styles/sizes';
 
